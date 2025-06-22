@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1 style={{textAlign: 'center', color: '#0074D9'}}>Invitación Liam (deploy test)</h1>
+      <h1 style={{textAlign: 'center', color: '#0074D9'}}>Invitación Liam</h1>
       {showConfetti && <Confetti colors={["#0074D9", "#1E90FF", "#00BFFF", "#3399FF", "#3A5FCD"]} />}
 
       <BackgroundImages />
